@@ -1,0 +1,14 @@
+Command of Jarvis
+
+1. <this thing> according to wikipedia.
+2. open youtube.
+3. open google.
+4. open facebook.
+5. What is the time?
+6. Thanks!
+7. Who made you?
+8. what is your name?
+9. Hello!
+10. what can you do?
+11. How are you?
+
