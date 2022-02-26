@@ -1,6 +1,9 @@
 ## General info
 This project contains a simple code of Jarvis Voice Assistant.
 
+## Requirements
+* Python 3
+
 ## Python Modules used in this code
 * Pyttsx3
 * Speech Recognition
