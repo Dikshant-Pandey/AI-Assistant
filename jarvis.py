@@ -1,7 +1,6 @@
 import pyttsx3
 import speech_recognition as sr
 import datetime
-import wikipedia
 import webbrowser
 
 engine = pyttsx3.init('sapi5')
@@ -49,14 +48,6 @@ if __name__ == "__main__":
     while True:
         query = takeCommand().lower()
 
-        if 'wikipedia' in query:
-            speak("Searching Wikipedia...")
-            query = query.replace("wikipedia", "")
-            results = wikipedia.summary(query, sentences=10)
-            speak("According to  Wikipedia")
-            print(results)
-            speak(results)
-
         elif 'open youtube' in query:
             speak("Opening YouTube...")
             webbrowser.open("youtube.com")
@@ -84,6 +75,3 @@ if __name__ == "__main__":
 
         elif "hello" in query:
             speak("Hi")
-        
-        elif "what can you do" in query:
-            speak("I can do lots of things, for example you can ask me time, date, weather in your city, I can open websites for you, launch application and more.")
