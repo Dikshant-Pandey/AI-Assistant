@@ -1,3 +1,9 @@
+## Table of contents
+* [General info](#general-info)
+* [Requirements](#requirements)
+* [Python Module used in this code](#python-modules-used-in-this-code)
+* [Install Modules] (#install-modules)
+
 ## General info
 This project contains a simple code of Jarvis Voice Assistant.
 
