@@ -48,7 +48,7 @@ if __name__ == "__main__":
     while True:
         query = takeCommand().lower()
 
-        elif 'open youtube' in query:
+        if 'open youtube' in query:
             speak("Opening YouTube...")
             webbrowser.open("youtube.com")
 
